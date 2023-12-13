@@ -1,0 +1,27 @@
+type: matching
+captions:
+  - '&#x27;%.5f&#x27; % (100/6)'
+  - "&#x27;{1} divided by {0} equals {2}&#x27;.format(6, 100, 100/6)"
+  - "&#x27;{} divided by {} equals {:.5f}&#x27;.format(100, 6, 100/6)"
+  - "&#x27;{dividend} / {divisor} = {quotient}&#x27;.format(quotient=100/6, divisor=6,\
+  \ dividend=100) "
+options:
+  - '&#x27;100 / 6 = 16.666666666666668&#x27;'
+  - '&#x27;100 divided by 6 equals 16.66667&#x27;'
+  - '&#x27;16.66667&#x27;'
+  - '&#x27;100 divided by 6 equals 16.666666666666668&#x27;'
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6897#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
